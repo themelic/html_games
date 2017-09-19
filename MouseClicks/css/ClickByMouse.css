@@ -1,0 +1,53 @@
+#theBox{
+    border:10px solid black;
+    width: 100px;
+    height: 200px;
+    margin:0px;
+    padding:0px;
+}
+
+span{
+    margin:0;
+    padding:0;
+}
+#xPos{
+    font-size:10px;
+    font-family:helvetica;
+    color:#669;
+    margin:0;
+    width:150px;
+}
+#yPos{
+    font-size:10px;
+    font-family:helvetica;
+    color:#669;
+    margin:0;
+    width:150px;
+    
+}
+
+#pText{
+    font-size:14px;
+    font-family:helvetica;
+}
+
+progress{
+    height: 20px;
+    width: 200px;
+}
+button{
+    padding: 5px;
+    margin:10px;
+}
+
+footer{
+    position: absolute; 
+    width:97%;
+    bottom: 30px; 
+    clear: both;
+    background-color: #f1f1f1;
+    color:black;
+    padding: 5px;
+    text-align:center;
+
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Click By Mouse</title>
+		<link rel="stylesheet" href="css/ClickByMouse.css" type="text/css">
+		<script type="text/javascript" src="js/ClickByMouse.js"></script>
+	</head>
+	<body>
+	    <button onclick="goMiddle()">Target to Middle</button>
+	    <span>
+    	    <p id="xPos">X Coords : 0.0</p>
+    	    <p id="yPos">Y Coords : 0.0</p>
+	    </span>
+		<div id="theBox" onmouseover="clickPosition()">
+	        <img id="normalObj" src="https://goo.gl/AEukXq">
+        </div> 
+        <div style="clear:both;"></div>
+        <div>
+            <span id="pText">Change for the dimension of Box </span><br/>
+            <progress id="progressBar" min="50" max="300" value="100" onclick="changeProg()"></progress>
+            <br />
+            <span id="progValue">100</span>
+                <footer>Copyrights not reserved &copy; 2017. Education purpose , copy as you like. <a href="https://www.sololearn.com/Profile/1685562/?ref=app">Melic</a></footer>       
+        </div>
+	</body>
+</html>
